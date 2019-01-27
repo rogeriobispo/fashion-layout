@@ -1,0 +1,129 @@
+body{
+  margin: 80px;
+  font-family: sans-serif;
+}
+#top-header nav{
+  position: fixed;
+  width: 100%;
+  max-width:inherit;
+
+  top: 10px;
+
+}
+#top-header nav{
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 0;
+  position: relative;
+
+}
+
+#logo {
+  background-image: url("../imagens/logo.png");
+  background-repeat: no-repeat;
+  height: 109px;
+  margin-left: 100px;
+}
+
+#menu{
+  position: absolute;
+  top: -12px;
+  right: 20px;
+}
+#menu li{
+  display: inline-block;
+  padding-top: 5px;
+  margin-left: 22px;
+  font-size: 20px;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: white;
+}
+#menu li a:hover{
+  text-decoration: underline;
+  color: #ccc;
+}
+
+#woman{
+  margin: 0 0 100px 0;
+  background-image: url("../imagens/topo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  height: 1024px;
+
+}
+header{
+  text-align: center;
+}
+header h1{
+  font-weight: bold;
+}
+
+header p{
+  line-height: 2;
+}
+
+#images{
+    text-align: center;
+    margin: 100px 0 ;
+}
+
+.card{
+  display: inline-block;
+  border: 1px solid red;
+  text-align: center;
+}
+.card-central{
+  margin: 0 2%;
+}
+
+.titulo-img{
+  font-weight: bold;
+}
+
+#image-message{
+  background-image: url("../imagens/bg_detalhe.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: right top;
+  padding: 100px;
+  color: white;
+}
+#image-message h1{
+  text-transform: uppercase;
+}
+
+#image-message p{
+  text-align: justify;
+  padding: 0 300px 0 0;
+  line-height: 1.5;
+}
+
+#contact{
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: black;
+}
+
+.mapa iframe{
+  width: 100%;
+  height: 600px;
+  border:0;
+  margin-bottom: 30px;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 12px;
+  text-align: center;
+}
